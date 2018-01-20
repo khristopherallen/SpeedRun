@@ -20,7 +20,7 @@ if (!place_meeting(x, y, o_block)) {
 
 // KILL PLAYER
 if (!active_) {
-	speed_ = 0;
+	o_block.speed_ = 0;
 }
 
 // SWITCH TO JUMP STATE
