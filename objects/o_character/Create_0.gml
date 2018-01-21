@@ -6,7 +6,7 @@ jump_size_multiplier_ = 5;
 vspeed_ = 0;
 gravity_ = .5;
 is_jumping = false;
-active_ = true;
+active_ = false;
 size_ = 1;
 
 

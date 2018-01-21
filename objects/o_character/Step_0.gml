@@ -15,6 +15,7 @@ moveY = (input_down - input_up) * speed_;
 if (!place_meeting(x, y, o_block)) {
 	if (height_ = 0) {
 		active_ = false;
+		o_game.speed_ = 0;
 	}
 }
 
@@ -42,7 +43,9 @@ if (is_jumping){
 
 
 // APPLY MOVEMENT
-x += moveX;
+if (active_){
+	x += moveX;
+}
 //y += -speed_; //moveY;
 
 // APPLY SCALE

@@ -6,7 +6,8 @@ if (countdown_ >= 1) {
 	alarm[0] = room_speed;
 } else {
 	countdown_ = countdown_go;
-	o_block.speed_ = 3;
+	speed_ = 3;
+	o_character.active_ = true;
 	alarm[1] = room_speed;
 }
 
