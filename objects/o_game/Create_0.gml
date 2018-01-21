@@ -8,6 +8,7 @@ max_spacing = 240;
 blocks_ = [inst_block1, inst_block2, inst_block3, inst_block4];
 speed_ = 0;
 coins_ = 0;
+randomise();
 
 /*if(!debug_mode) {
 	layer_set_visible("Blocks", false);
