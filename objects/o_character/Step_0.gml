@@ -12,7 +12,7 @@ moveX = (input_right - input_left) * speed_;
 moveY = (input_down - input_up) * speed_;
 
 // BLOCK EDGE CHECKS
-if (!place_meeting(x, y, o_block)) {
+if (!place_meeting(x, y, o_platform)) {
 	if (height_ = 0) {
 		active_ = false;
 		o_game.speed_ = 0;
@@ -21,7 +21,7 @@ if (!place_meeting(x, y, o_block)) {
 
 // KILL PLAYER
 if (!active_) {
-	o_block.speed_ = 0;
+	o_platform.speed_ = 0;
 }
 
 // SWITCH TO JUMP STATE

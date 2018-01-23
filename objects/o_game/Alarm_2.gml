@@ -11,6 +11,17 @@ for (i=0; i<array_length_1d(blocks_); i++) {
 	}
 	x_previous = blocks_[i].x;
 	
+	//make some blocks
+		numBlocks = random_range(3,8);
+	for (j = 1; j<=numBlocks; j++){
+		blockX = random_range(blocks_[i].x,blocks_[i].x+blocks_[i].sprite_width);
+		blockY = random_range(blocks_[i].y,blocks_[i].y+blocks_[i].sprite_height);
+		block = instance_create_layer(blockX,blockY,"Blocks",o_block_var1);
+		with (block) {
+			move_snap(16, 1);
+		}
+	}
+	
 	//make some coins
 	numCoins = random_range(1,5);
 	for (j = 1; j<=numCoins; j++){

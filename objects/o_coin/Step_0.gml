@@ -11,3 +11,5 @@ if (!collected_){
 		y=o_collector.y;	
 	}
 }
+
+
