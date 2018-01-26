@@ -1,17 +1,22 @@
 /// @description Movement
 
 // UPDATE INPUT
+/*
 input_left		= keyboard_check(ord("A"));
 input_right		= keyboard_check(ord("D"));
 input_up		= keyboard_check(ord("W"));
 input_down		= keyboard_check(ord("S"));
+*/
 input_jump		= keyboard_check(vk_space);
 
-//	INTENDED MOVEMENT
-moveX = (input_right - input_left) * speed_;
-moveY = (input_down - input_up) * speed_;
 
+//	INTENDED MOVEMENT
+//moveX = (input_right - input_left);
+//moveY = (input_down - input_up);
+moveX = 0;
+moveY = 0;
 if (active_){
+	
 	
 
 	// BLOCK EDGE CHECKS
@@ -61,7 +66,11 @@ if (active_){
 
 	// APPLY X
 	if (active_){
-		x += moveX;
+		//x += moveX;
+		x -= (x-newX)*.1;
+		if (abs(x-newX) <2){
+			x = newX;	
+		} 
 
 		if (y > room_height){
 			active_ = false;	

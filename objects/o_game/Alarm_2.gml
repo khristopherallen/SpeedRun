@@ -6,7 +6,7 @@ for (i=0; i<array_length_1d(blocks_); i++) {
 		blocks_[i].x = random_range(x_previous-max_spacing, x_previous+max_spacing);
 		blocks_[i].x = clamp(blocks_[i].x, 0, room_width-blocks_[i].sprite_width); 
 		with (blocks_[i]) {
-			move_snap(16, 1);
+			move_snap(32, 1);
 			alarm[0] = 1;
 		}	
 	}
@@ -14,3 +14,4 @@ for (i=0; i<array_length_1d(blocks_); i++) {
 }
 
 o_character.x = blocks_[0].x+blocks_[0].sprite_width/2;
+o_character.newX  = o_character.x;

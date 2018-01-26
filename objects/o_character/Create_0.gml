@@ -10,6 +10,9 @@ is_jumping = false;
 is_landing = true;
 active_ = false;
 size_ = 1;
+channel_size = 32;
+channel = 3;
+newX = x;
 
 
 char_type = s_character;

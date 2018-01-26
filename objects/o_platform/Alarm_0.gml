@@ -1,7 +1,7 @@
 /// @description Generate objects
 
 for (i=0;i<20;i++){
-		for (j=0;j<12;j++){
+		for (j=0;j<10;j++){
 			choice = floor(random_range(1,101));
 			objX = x + block_size*j;
 			objY = y + block_size*i;
@@ -13,11 +13,11 @@ for (i=0;i<20;i++){
 			}else if (choice == 6){
 				obj = instance_create_layer(objX,objY,"Coins",o_energy);
 			}else if (choice >=7 && choice <=8 && j == 0){
-				for (k=0;k<12;k++){
+				for (k=0;k<10;k++){
 					objX = x + block_size*k;
 					instance_create_layer(objX,objY,"Blocks",o_block_var1);
 				}
-				j=12;
+				j=10;
 			}
 		}
 	} 
