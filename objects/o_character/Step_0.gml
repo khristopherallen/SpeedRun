@@ -67,11 +67,11 @@ if (active_){
 	// APPLY X
 	if (active_){
 		//x += moveX;
-		x -= (x-newX)*.1;
+		x -= (x-newX)*.4;
 		if (abs(x-newX) <2){
 			x = newX;	
+			moving = false;
 		} 
-
 		if (y > room_height){
 			active_ = false;	
 		}

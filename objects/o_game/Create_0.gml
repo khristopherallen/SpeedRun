@@ -3,12 +3,12 @@
 countdown_go = "GO!"
 countdown_ = 3;
 visible_ = true;
-x_previous = room_width/2;
-max_spacing = 240;
-blocks_ = [inst_block1, inst_block2, inst_block3, inst_block4];
+x_previous = 0;
+max_spacing = 120;
 speed_ = 0;
 coins_ = 0;
 theme_ = "lol";
+pf_spacer = 40;
 
 randomise();
 

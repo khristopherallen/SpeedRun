@@ -1,3 +1,6 @@
 /// @description
-channel += 1;
-newX = x+channel_size;
+if (active_ && !moving) {
+	moving = true;
+	channel += 1;
+	newX = x+channel_size;
+}
