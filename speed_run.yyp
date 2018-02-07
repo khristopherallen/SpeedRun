@@ -42,7 +42,7 @@
             "Key": "035d2e12-bf65-48a9-ac0e-c5b8dc766d9e",
             "Value": {
                 "id": "93934095-19de-49d9-96d7-454bb49d8001",
-                "resourcePath": "sprites\\s_block_var1\\s_block_var1.yy",
+                "resourcePath": "sprites\\s_block\\s_block.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -52,14 +52,6 @@
                 "id": "f71eaf46-eaff-495d-938e-5ffb276a951a",
                 "resourcePath": "views\\06e383a7-ee32-4615-b799-76d7c43815b2.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "0db22df3-1f27-483c-8213-b5520cc79b06",
-            "Value": {
-                "id": "b42ac0d2-381d-4ecf-8fac-0ec9dcd6758c",
-                "resourcePath": "tilesets\\ts_tiles\\ts_tiles.yy",
-                "resourceType": "GMTileSet"
             }
         },
         {
@@ -231,14 +223,6 @@
             }
         },
         {
-            "Key": "c2c4939e-5741-4e69-954e-90599d763fca",
-            "Value": {
-                "id": "3439feec-0935-4f31-8a40-9d112d46dbd4",
-                "resourcePath": "sprites\\s_tiles\\s_tiles.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "c4c01bc6-c0be-47c9-892a-55e7b017d956",
             "Value": {
                 "id": "91f4f41c-fdc9-4fe7-85d0-9e42525758a2",
@@ -282,7 +266,7 @@
             "Key": "e47c92d5-f452-49bc-8075-48e3f8ee1e89",
             "Value": {
                 "id": "885c4868-e07a-459e-ba03-28fe239e7aa9",
-                "resourcePath": "objects\\o_block_var1\\o_block_var1.yy",
+                "resourcePath": "objects\\o_block\\o_block.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -306,7 +290,7 @@
             "Key": "f9285539-59fa-44cb-b299-4ab0c1ee8275",
             "Value": {
                 "id": "a028ec35-2e56-4747-867e-8c1c5d919bb8",
-                "resourcePath": "sprites\\s_block\\s_block.yy",
+                "resourcePath": "sprites\\s_platform\\s_platform.yy",
                 "resourceType": "GMSprite"
             }
         },

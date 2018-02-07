@@ -48,18 +48,18 @@ if (active_){
 
 	//GROUND ACTIONS
 	if (!is_jumping && !is_landing){
-		if (place_meeting(x,y-o_game.speed_,o_block_var1)){
+		if (place_meeting(x,y-o_game.speed_,o_block)){
 			yspeed_ = -o_game.speed_;
 		}else if (yspeed_ < 0){
 			yspeed_ = 0;
 		}
-		if (place_meeting(x+moveX,y,o_block_var1)){
+		if (place_meeting(x+moveX,y,o_block)){
 			moveX = 0;	
 		}
 	}
 
 	if (is_landing){
-		if (!place_meeting(x,y,o_block_var1)){
+		if (!place_meeting(x,y,o_block)){
 			is_landing = false;
 		}	
 	}

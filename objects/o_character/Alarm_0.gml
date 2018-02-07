@@ -1,3 +1,3 @@
 /// @description Recover 1 health every second
-y-=1;
-alarm[0] = room_speed;
+//y-=1;
+//alarm[0] = room_speed;
